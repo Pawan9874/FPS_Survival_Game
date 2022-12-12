@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 1655712132}
   - component: {fileID: 2997658304035601389}
   - component: {fileID: 386043308}
+  - component: {fileID: 1752143160}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -393,6 +394,19 @@ MonoBehaviour:
   - {fileID: 6627392436999682154}
   - {fileID: 6482907134635809567}
   - {fileID: 8460406493169482382}
+--- !u!114 &1752143160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3092631769932781092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc87d0a22c826c45a900505e6e1492e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireRate: 15
 --- !u!1 &4410489786602643684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,6 +2004,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ded3362b8b3b82243b3043bb355c770c, type: 3}
+      propertyPath: m_TagString
+      value: Axe
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: ded3362b8b3b82243b3043bb355c770c, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -2604,6 +2622,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f01a880f7473c2546b3ff80815537299, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 804f282bc492bef41a27e2a786258e69, type: 2}
     - target: {fileID: 13700000, guid: f01a880f7473c2546b3ff80815537299, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
